@@ -26,5 +26,5 @@ void oscEvent(OscMessage msg) {
 void draw() {
   background(0);
   fill(255);
-  point(position_x,position_y);
+  rect(position_x,position_y);
 }
